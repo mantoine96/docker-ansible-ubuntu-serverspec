@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y software-properties-common
 
 RUN apt-add-repository ppa:brightbox/ruby-ng
 
-RUN apt-get update && apt-get install gcc rake ruby2.2 ruby2.2-dev gem
+RUN apt-get update && apt-get install -y gcc rake ruby2.2 ruby2.2-dev gem
 
 RUN gem install serverspec
 
