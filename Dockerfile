@@ -1,7 +1,7 @@
 FROM ansible/ansible:ubuntu1404
 
 # Because Ubuntu 14.04 is bundled with Ruby 1.9, we have to use Ruby > 2.0 and therefore need a PPA
-RUN apt-get update && apt-get install -y software-properties python-software-properties 
+#RUN apt-get update && apt-get install -y software-properties python-software-properties 
 
 RUN apt-add-repository ppa:brightbox/ruby-ng
 
